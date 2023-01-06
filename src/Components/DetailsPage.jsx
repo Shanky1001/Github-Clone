@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from './Navbar'
-import '../Styles/DetailsPage.css'
+import React from 'react';
+import Navbar from './Navbar';
+import '../Styles/DetailsPage.css';
 import TabArea from './Tabs';
 
 
