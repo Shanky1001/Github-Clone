@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { ADD_DETAILS, Clear, Search } from '../Redux/Reducer';
 import { SearchMinor } from '@shopify/polaris-icons';
 import SearchCard from './SearchCard';
-import '../App.css'
+import '../App.css';
 
 const HomePage = () => {
 
@@ -43,7 +43,7 @@ const HomePage = () => {
 
     useEffect(() => {
 
-        const fetch = setTimeout(() => fetchData(), 350)
+        const fetch = setTimeout(() => fetchData(), 350);
 
         return () => clearTimeout(fetch);
 
